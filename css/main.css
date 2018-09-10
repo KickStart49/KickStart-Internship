@@ -1,0 +1,214 @@
+body{
+	background:#d3d3d3;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.middle{
+	position: absolute;
+  	top: 50%;
+  	left:50%;
+  	border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 5px 6px #d3d3d3; 
+  	-moz-box-shadow:    3px 3px 5px 6px #d3d3d3; 
+ 	box-shadow:         3px 3px 5px 6px #d3d3d3;
+  	transform: translate(-50%,-50%);
+}
+
+#form{
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+	background: #d3d3d3;
+	-webkit-box-shadow: 3px 3px 5px 6px #d3d3d3; 
+  	-moz-box-shadow:    3px 3px 5px 6px #d3d3d3; 
+ 	box-shadow:         3px 3px 5px 6px #d3d3d3;
+}
+img{
+	max-height:300px!important;
+	max-width: 300px!important;
+}
+#category, #dashboard, #addpost, #commentsec, #manage{
+	text-align: center;
+}
+#form{
+	align-content: center;
+	align-items: center;
+	font-size: 1em;
+	 display: inline-block;
+	font-weight: bold;
+	text-align: center;
+	background: #d3d3d3;
+	-webkit-box-shadow: 3px 3px 5px 6px #343A40; 
+  	-moz-box-shadow:    3px 3px 5px 6px #343A40; 
+ 	box-shadow:         3px 3px 5px 6px #343A40;
+}
+.btn-default{
+	background-color: #d3d3d3;
+	color: #000000;
+}
+.btn-default:hover{
+	background-color: #343A40;
+	color: #d3d3d3;
+}
+.nav-item , .nav-link{
+	color: #d3d3d3;
+}
+.btn-dark:hover ,.nav-link:hover{
+	background-color:#d3d3d3;
+	color: #343A40!important;
+}
+.nav-link.active{
+	background-color: #E9ECEF!important;
+	color: #000000!important;
+}
+.menu{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #343A40!important;
+    overflow-x: hidden;
+    padding-top: 20px;
+ 	height: 100vh;
+ 	height: 100%;
+}
+.hidden{
+	display: none;
+}
+#dashboard,#addintern,#hire{
+    min-height:100vh!important;
+}
+.navbar{
+	background-color: #343A40!important;
+}
+.main{
+	margin-left: 260px;
+	padding: 0px 10px;
+ 	background-color: #E9ECEF!important;
+}
+#team {
+    background: #eee !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1295C9;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    color: #1295C9;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #1295C9 !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #1295C9 !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
